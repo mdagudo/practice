@@ -1,12 +1,17 @@
 #header {
-  background-color: hsl(146, 100%, 80%);
+  background-color: hsla(0, 0%, 100%, 0.2);
   padding: 25px;
   text-align: center;
-  
+  border-bottom: solid;
+  border-color: hsla(0, 0%, 0%, 0.5);
 }
 
 body {
-    background-color: hsl(60, 100%, 90%);
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     text-align: justify;
     font-family: verdana;
 }
